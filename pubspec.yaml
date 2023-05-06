@@ -31,7 +31,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg:
-  iconsax: ^1.1.3
   
 
 
