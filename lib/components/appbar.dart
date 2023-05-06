@@ -29,7 +29,10 @@ class _AppbarState extends State<Appbar> {
           Icons.person,
           size: 30.0,
           color: Colors.black,
-        ),)
+        ),),
+
+        IconButton(onPressed: (){}, icon:Icon(Icons.search)),
+         IconButton(onPressed: (){}, icon:Icon(Icons.more_horiz))
             ],
           )
         ],
