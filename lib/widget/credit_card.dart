@@ -41,6 +41,7 @@
 
 import 'package:flutter/material.dart';
 import '../utilities/themestyle.dart';
+import 'package:fintech_app/components/cardlist.dart';
 
 class creditcard extends StatefulWidget {
   const creditcard({Key? key}) : super(key: key);
@@ -76,7 +77,7 @@ class _creditcardState extends State<creditcard> {
                             "********",
                             style: Themestyle.cardMoney,
                           )
-                        : Text("N500,000", style: Themestyle.cardMoney),
+                        : Text("N100,000,000", style: Themestyle.cardMoney),
                     IconButton(
                       onPressed: () {
                         setState(() {
