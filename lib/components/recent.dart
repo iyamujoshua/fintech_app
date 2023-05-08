@@ -26,16 +26,41 @@ class _recentransactionState extends State<recentransaction> {
           ),
 
           Flexible(
+            flex: 1,
             child: ListView(
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
               children: [
                 TransactionCard(
-                  color: Colors.black, 
-                  title:"Joshua", 
+                  color: Colors.black,
+                  letter: "B", 
+                  title:"Bruce wayne", 
+                  subTitle: "Buys a bank", 
+                  price: "100,000,000",
+                 ),
+
+                 TransactionCard(
+                  color: Colors.amber,
+                  letter: "J", 
+                  title:"Joshua iyamu", 
                   subTitle: "Wig funds", 
-                  price: "-50,000",
-                  letter: "J")
+                  price: "- 50,000",
+                 ),
+                 TransactionCard(
+                  color: Colors.purple,
+                  letter: "F", 
+                  title:"Tasha wayne", 
+                  subTitle: "N/A", 
+                  price: "- 50,000",
+                 ),
+                 TransactionCard(
+                  color: Colors.green,
+                  letter: "S", 
+                  title:"SWAVE", 
+                  subTitle: "sms", 
+                  price: "- 50,000",
+                 ),
+
               ],
             )
             )
