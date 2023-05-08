@@ -30,7 +30,12 @@ class _recentransactionState extends State<recentransaction> {
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
               children: [
-                TransactionCard()
+                TransactionCard(
+                  color: Colors.black, 
+                  title:"Joshua", 
+                  subTitle: "Wig funds", 
+                  price: "-50,000",
+                  letter: "J")
               ],
             )
             )

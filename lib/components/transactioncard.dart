@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fintech_app/components/recent.dart';
 
 class TransactionCard extends StatefulWidget {
   final String title;
@@ -23,6 +24,27 @@ class _TransactionCardState extends State<TransactionCard> {
   Widget build(BuildContext context) {
     return Container(
       height: 62.0,
+      width: 343,
+      child: Column(
+        children: [
+          Row(
+            children: [
+              Row(
+                children: [
+                  Container(
+                    height: 44,
+                    width: 44,
+                    decoration: BoxDecoration(
+                      color: widget.color,
+                      borderRadius: BorderRadius.circular(22.0)
+                    ),
+                  )
+                ],
+              )
+            ],
+          )
+        ],
+      ),
     );
   }
 }
