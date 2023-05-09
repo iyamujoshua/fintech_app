@@ -16,7 +16,7 @@ class _AppbarState extends State<Appbar> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            "Home",
+            "Welcome",
             style: TextStyle(
               fontSize: 25.0,
               fontWeight: FontWeight.w800,
@@ -31,8 +31,8 @@ class _AppbarState extends State<Appbar> {
           color: Colors.black,
         ),),
 
-        IconButton(onPressed: (){}, icon:Icon(Icons.search)),
-         IconButton(onPressed: (){}, icon:Icon(Icons.more_horiz))
+        // IconButton(onPressed: (){}, icon:Icon(Icons.search)),
+        //  IconButton(onPressed: (){}, icon:Icon(Icons.more_horiz))
             ],
           )
         ],

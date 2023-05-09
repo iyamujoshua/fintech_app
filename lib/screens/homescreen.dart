@@ -38,19 +38,19 @@ class _myhomeState extends State<myhome> {
         currentIndex: selectedIndex,
         items: [
           BottomNavigationBarItem(
-            icon: Image.asset("asset/house.png"),
+           icon: Icon(Icons.home),
             label: "Home",
           ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/house.png"),
+            icon: Icon(Icons.search),
             label: " Transaction",
           ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/house.png"),
+            icon: Icon(Icons.card_giftcard),
             label: "Settings",
           ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/house.png"),
+            icon: Icon(Icons.person_2_outlined),
             label: "Profile",
           ),
         ],
