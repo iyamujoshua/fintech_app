@@ -42,12 +42,12 @@ class _myhomeState extends State<myhome> {
             label: "Home",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.send_and_archive_outlined),
             label: " Transaction",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.card_giftcard),
-            label: "Settings",
+            label: "cards",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_2_outlined),
